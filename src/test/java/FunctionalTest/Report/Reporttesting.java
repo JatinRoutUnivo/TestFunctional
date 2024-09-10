@@ -42,7 +42,8 @@ public class Reporttesting {
 		reporter=new ExtentHtmlReporter("C:\\Users\\admin\\eclipse-workspace\\Report\\Extent Report\\FunctionalTestReport.html");
 		reporter.config().setTheme(Theme.STANDARD);
 		reporter.config().setReportName("Functional Test report");
-		reporter.config().setTimeStampFormat("dd/mm/yyyy, hh:mm:ss");
+		reporter.config().setTimeStampFormat("dd-MM-yyyy HH:mm");
+	
 		
 		reports=new ExtentReports();
 		reports.attachReporter(reporter);
@@ -161,13 +162,9 @@ public class Reporttesting {
 	@AfterMethod
 
 	public void CloseBrowser(ITestResult result) throws IOException {
-if(result.getStatus()==ITestResult.FAILURE) {
-			String myscreenshot = CaptureScreenshot.Screenshot(driver);
-			test.log(Status.FAIL, result.getThrowable());
-			test.log(Status.FAIL, MarkupHelper.createLabel("Login Failed", ExtentColor.RED));
-			test.addScreenCaptureFromPath(myscreenshot); 
+		driver.quit();
 		
 	}
-driver.quit();
+
 }
-}
+
