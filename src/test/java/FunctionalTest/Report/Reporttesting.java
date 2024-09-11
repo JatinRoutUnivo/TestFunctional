@@ -21,8 +21,6 @@ import org.testng.annotations.Test;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -39,13 +37,13 @@ public class Reporttesting {
 	@BeforeTest
 	public void GenerateReport() {
 		
-		reporter=new ExtentHtmlReporter("C:\\Users\\admin\\eclipse-workspace\\Report\\Extent Report\\FunctionalTestReport.html");
+		//reporter=new ExtentHtmlReporter("C:\\Users\\admin\\eclipse-workspace\\Report\\Extent Report\\FunctionalTestReport.html");
+		reporter=new ExtentHtmlReporter(System.getProperty("user.dir") + "/Extent Report/FunctionalTestReport.html");
 		reporter.config().setTheme(Theme.STANDARD);
 		reporter.config().setReportName("Functional Test report");
 		reporter.config().setTimeStampFormat("dd-MM-yyyy HH:mm");
 	
-		
-		reports=new ExtentReports();
+		reports = new ExtentReports();
 		reports.attachReporter(reporter);
 		
 		
