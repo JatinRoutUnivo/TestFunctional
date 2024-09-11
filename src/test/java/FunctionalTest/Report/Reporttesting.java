@@ -52,6 +52,7 @@ public class Reporttesting {
 	
 	@AfterTest
 	public void CloseReport() {
+		System.out.println("Report is being saved at: " + System.getProperty("user.dir") + "/Extent Report/FunctionalTestReport.html");
 		reports.flush();
 		
 	}
