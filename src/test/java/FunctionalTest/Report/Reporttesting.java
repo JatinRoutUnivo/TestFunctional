@@ -234,11 +234,18 @@ public class Reporttesting {
 
 	@BeforeTest
 	public void GenerateReport() {
+<<<<<<< HEAD
 
 		//reporter=new ExtentHtmlReporter("C:\\Users\\admin\\eclipse-workspace\\Report\\ExtentReport\\FunctionalTestReport.html");
 		String jenkinsWorkspacePath = System.getProperty("user.dir") + "/ExtentReport/FunctionalTestReport.html";
 		reporter = new ExtentHtmlReporter(jenkinsWorkspacePath);
 
+=======
+		
+
+		String jenkinsWorkspacePath = System.getProperty("user.dir") + "/ExtentReport/FunctionalTestReport.html";
+	    reporter = new ExtentHtmlReporter(jenkinsWorkspacePath);
+>>>>>>> 4a3a4d6df4d8af4fc846be4c7abaf901cf839c7b
 		reporter.config().setTheme(Theme.STANDARD);
 		reporter.config().setReportName("Functional Test report");
 		reporter.config().setTimeStampFormat("dd-MM-yyyy HH:mm");
