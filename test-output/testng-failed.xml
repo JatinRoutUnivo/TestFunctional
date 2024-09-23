@@ -5,10 +5,10 @@
     <classes>
       <class name="FunctionalTest.Report.Reporttesting">
         <methods>
-          <include name="ProgramButton"/>
           <include name="CloseReport"/>
           <include name="CloseBrowser"/>
           <include name="GenerateReport"/>
+          <include name="Callusicon"/>
           <include name="LaunchBrowser"/>
         </methods>
       </class> <!-- FunctionalTest.Report.Reporttesting -->

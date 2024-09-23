@@ -1,112 +1,1195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="62" passed="62" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-12T01:36:23 IST" name="Default suite" finished-at="2024-09-12T01:36:54 IST" duration-ms="31786">
+  <suite started-at="2024-09-23T14:46:26 IST" name="Default suite" finished-at="2024-09-23T14:52:56 IST" duration-ms="390724">
     <groups>
     </groups>
-    <test started-at="2024-09-12T01:36:23 IST" name="Default test" finished-at="2024-09-12T01:36:54 IST" duration-ms="31786">
+    <test started-at="2024-09-23T14:46:26 IST" name="Default test" finished-at="2024-09-23T14:52:56 IST" duration-ms="390724">
       <class name="FunctionalTest.Report.Reporttesting">
-        <test-method is-config="true" signature="GenerateReport()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:23 IST" name="GenerateReport" finished-at="2024-09-12T01:36:23 IST" duration-ms="527" status="PASS">
+        <test-method is-config="true" signature="GenerateReport()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:26 IST" name="GenerateReport" finished-at="2024-09-23T14:46:26 IST" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GenerateReport -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:23 IST" name="LaunchBrowser" finished-at="2024-09-12T01:36:30 IST" duration-ms="7132" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:26 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:29 IST" duration-ms="3075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="AmityLogo()[pri:1, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:30 IST" name="AmityLogo" finished-at="2024-09-12T01:36:31 IST" duration-ms="168" status="PASS">
+        <test-method signature="AmityLogo()[pri:1, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:29 IST" name="AmityLogo" finished-at="2024-09-23T14:46:29 IST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmityLogo -->
-        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:31 IST" name="CloseBrowser" finished-at="2024-09-12T01:36:31 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:29 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:29 IST" duration-ms="209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AmityLogo status=SUCCESS method=Reporttesting.AmityLogo()[pri:1, instance:FunctionalTest.Report.Reporttesting@7b4c50bc] output={null}]]]>
+                <![CDATA[[TestResult name=AmityLogo status=SUCCESS method=Reporttesting.AmityLogo()[pri:1, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:31 IST" name="LaunchBrowser" finished-at="2024-09-12T01:36:35 IST" duration-ms="3880" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:29 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:32 IST" duration-ms="2195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="ProgramButton()[pri:2, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:35 IST" name="ProgramButton" finished-at="2024-09-12T01:36:35 IST" duration-ms="149" status="PASS">
+        <test-method signature="ProgramsHeaderButton()[pri:2, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:32 IST" name="ProgramsHeaderButton" finished-at="2024-09-23T14:46:32 IST" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ProgramButton -->
-        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:35 IST" name="CloseBrowser" finished-at="2024-09-12T01:36:35 IST" duration-ms="312" status="PASS">
+        </test-method> <!-- ProgramsHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:32 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:32 IST" duration-ms="187" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ProgramButton status=SUCCESS method=Reporttesting.ProgramButton()[pri:2, instance:FunctionalTest.Report.Reporttesting@7b4c50bc] output={null}]]]>
+                <![CDATA[[TestResult name=ProgramsHeaderButton status=SUCCESS method=Reporttesting.ProgramsHeaderButton()[pri:2, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:35 IST" name="LaunchBrowser" finished-at="2024-09-12T01:36:39 IST" duration-ms="3636" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:32 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:35 IST" duration-ms="2226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="CareerServices()[pri:3, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:39 IST" name="CareerServices" finished-at="2024-09-12T01:36:41 IST" duration-ms="2294" status="PASS">
+        <test-method signature="CareerServicesHeaderButton()[pri:3, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:35 IST" name="CareerServicesHeaderButton" finished-at="2024-09-23T14:46:37 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CareerServicesHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:37 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:37 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CareerServicesHeaderButton status=SUCCESS method=Reporttesting.CareerServicesHeaderButton()[pri:3, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:37 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:39 IST" duration-ms="2095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="AdvantagesHeaderButton()[pri:4, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:39 IST" name="AdvantagesHeaderButton" finished-at="2024-09-23T14:46:40 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvantagesHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:40 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:40 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AdvantagesHeaderButton status=SUCCESS method=Reporttesting.AdvantagesHeaderButton()[pri:4, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:40 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:42 IST" duration-ms="2384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="SearchHeaderButton()[pri:5, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:42 IST" name="SearchHeaderButton" finished-at="2024-09-23T14:46:43 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:43 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:43 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchHeaderButton status=SUCCESS method=Reporttesting.SearchHeaderButton()[pri:5, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:43 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:45 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="CallusHeaderButton()[pri:6, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:45 IST" name="CallusHeaderButton" finished-at="2024-09-23T14:46:47 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CallusHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:47 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:48 IST" duration-ms="177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CallusHeaderButton status=SUCCESS method=Reporttesting.CallusHeaderButton()[pri:6, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:48 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:50 IST" duration-ms="2124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="StudentLoginHeaderButton()[pri:7, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:50 IST" name="StudentLoginHeaderButton" finished-at="2024-09-23T14:46:52 IST" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentLoginHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:52 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:52 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=StudentLoginHeaderButton status=SUCCESS method=Reporttesting.StudentLoginHeaderButton()[pri:7, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:52 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:54 IST" duration-ms="2167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="EnrollNowHeaderButton()[pri:8, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:54 IST" name="EnrollNowHeaderButton" finished-at="2024-09-23T14:46:56 IST" duration-ms="1720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnrollNowHeaderButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:56 IST" name="CloseBrowser" finished-at="2024-09-23T14:46:56 IST" duration-ms="126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EnrollNowHeaderButton status=SUCCESS method=Reporttesting.EnrollNowHeaderButton()[pri:8, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:56 IST" name="LaunchBrowser" finished-at="2024-09-23T14:46:58 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ApplyNowHerocardButton()[pri:9, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:46:58 IST" name="ApplyNowHerocardButton" finished-at="2024-09-23T14:47:02 IST" duration-ms="4182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyNowHerocardButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:02 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:02 IST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplyNowHerocardButton status=SUCCESS method=Reporttesting.ApplyNowHerocardButton()[pri:9, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:02 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:04 IST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Callusicon()[pri:10, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:04 IST" name="Callusicon" finished-at="2024-09-23T14:47:11 IST" duration-ms="6432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Callusicon -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:11 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:11 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Callusicon status=SUCCESS method=Reporttesting.Callusicon()[pri:10, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:11 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:14 IST" duration-ms="2664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="WhatsappIcon()[pri:11, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:14 IST" name="WhatsappIcon" finished-at="2024-09-23T14:47:17 IST" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WhatsappIcon -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:17 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:18 IST" duration-ms="630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WhatsappIcon status=SUCCESS method=Reporttesting.WhatsappIcon()[pri:11, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:18 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:20 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ViewAllButton()[pri:12, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:20 IST" name="ViewAllButton" finished-at="2024-09-23T14:47:21 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAllButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:21 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:21 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewAllButton status=SUCCESS method=Reporttesting.ViewAllButton()[pri:12, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:21 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:23 IST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="RequestAcallButton()[pri:13, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:23 IST" name="RequestAcallButton" finished-at="2024-09-23T14:47:26 IST" duration-ms="3372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RequestAcallButton -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:26 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:27 IST" duration-ms="410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RequestAcallButton status=SUCCESS method=Reporttesting.RequestAcallButton()[pri:13, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:27 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:29 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ViewAllStayInformed()[pri:14, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:29 IST" name="ViewAllStayInformed" finished-at="2024-09-23T14:47:30 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAllStayInformed -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:30 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:30 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewAllStayInformed status=SUCCESS method=Reporttesting.ViewAllStayInformed()[pri:14, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:30 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:32 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ViewAllLatestBlog()[pri:15, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:32 IST" name="ViewAllLatestBlog" finished-at="2024-09-23T14:47:33 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewAllLatestBlog -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:33 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:34 IST" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewAllLatestBlog status=SUCCESS method=Reporttesting.ViewAllLatestBlog()[pri:15, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:34 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:36 IST" duration-ms="2157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="KnowMore()[pri:16, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:36 IST" name="KnowMore" finished-at="2024-09-23T14:47:39 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KnowMore -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:39 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:39 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=KnowMore status=SUCCESS method=Reporttesting.KnowMore()[pri:16, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:39 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:41 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="ApplyNowButtonCTAs()[pri:17, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:41 IST" name="ApplyNowButtonCTAs" finished-at="2024-09-23T14:47:45 IST" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyNowButtonCTAs -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:45 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:45 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApplyNowButtonCTAs status=SUCCESS method=Reporttesting.ApplyNowButtonCTAs()[pri:17, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:45 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:47 IST" duration-ms="2243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Aboutus()[pri:18, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:47 IST" name="Aboutus" finished-at="2024-09-23T14:47:52 IST" duration-ms="5072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aboutus -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:52 IST" name="CloseBrowser" finished-at="2024-09-23T14:47:53 IST" duration-ms="193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Aboutus status=SUCCESS method=Reporttesting.Aboutus()[pri:18, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:53 IST" name="LaunchBrowser" finished-at="2024-09-23T14:47:55 IST" duration-ms="2092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="CareerServices()[pri:19, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:55 IST" name="CareerServices" finished-at="2024-09-23T14:47:59 IST" duration-ms="4627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CareerServices -->
-        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:41 IST" name="CloseBrowser" finished-at="2024-09-12T01:36:41 IST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:47:59 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:00 IST" duration-ms="178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CareerServices status=SUCCESS method=Reporttesting.CareerServices()[pri:3, instance:FunctionalTest.Report.Reporttesting@7b4c50bc] output={null}]]]>
+                <![CDATA[[TestResult name=CareerServices status=SUCCESS method=Reporttesting.CareerServices()[pri:19, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:41 IST" name="LaunchBrowser" finished-at="2024-09-12T01:36:46 IST" duration-ms="4024" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:00 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:02 IST" duration-ms="2119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="AdvantagesButton()[pri:4, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:46 IST" name="AdvantagesButton" finished-at="2024-09-12T01:36:50 IST" duration-ms="4419" status="PASS">
+        <test-method signature="StudentStories()[pri:20, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:02 IST" name="StudentStories" finished-at="2024-09-23T14:48:07 IST" duration-ms="4974" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AdvantagesButton -->
-        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:50 IST" name="CloseBrowser" finished-at="2024-09-12T01:36:50 IST" duration-ms="317" status="PASS">
+        </test-method> <!-- StudentStories -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:07 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:07 IST" duration-ms="198" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AdvantagesButton status=SUCCESS method=Reporttesting.AdvantagesButton()[pri:4, instance:FunctionalTest.Report.Reporttesting@7b4c50bc] output={null}]]]>
+                <![CDATA[[TestResult name=StudentStories status=SUCCESS method=Reporttesting.StudentStories()[pri:20, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:50 IST" name="LaunchBrowser" finished-at="2024-09-12T01:36:53 IST" duration-ms="3213" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:07 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:09 IST" duration-ms="2160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="SearchButton()[pri:5, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:53 IST" name="SearchButton" finished-at="2024-09-12T01:36:54 IST" duration-ms="50" status="PASS">
+        <test-method signature="Leadership()[pri:21, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:09 IST" name="Leadership" finished-at="2024-09-23T14:48:14 IST" duration-ms="4684" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchButton -->
-        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:54 IST" name="CloseBrowser" finished-at="2024-09-12T01:36:54 IST" duration-ms="320" status="PASS">
+        </test-method> <!-- Leadership -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:14 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:14 IST" duration-ms="178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=SearchButton status=SUCCESS method=Reporttesting.SearchButton()[pri:5, instance:FunctionalTest.Report.Reporttesting@7b4c50bc] output={null}]]]>
+                <![CDATA[[TestResult name=Leadership status=SUCCESS method=Reporttesting.Leadership()[pri:21, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="CloseReport()[pri:0, instance:FunctionalTest.Report.Reporttesting@7b4c50bc]" started-at="2024-09-12T01:36:54 IST" name="CloseReport" finished-at="2024-09-12T01:36:54 IST" duration-ms="589" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:14 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:16 IST" duration-ms="2099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Corporate()[pri:22, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:16 IST" name="Corporate" finished-at="2024-09-23T14:48:21 IST" duration-ms="4888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Corporate -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:21 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:21 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Corporate status=SUCCESS method=Reporttesting.Corporate()[pri:22, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:21 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:23 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Contactus()[pri:23, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:23 IST" name="Contactus" finished-at="2024-09-23T14:48:28 IST" duration-ms="4934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contactus -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:28 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:28 IST" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Contactus status=SUCCESS method=Reporttesting.Contactus()[pri:23, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:28 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:31 IST" duration-ms="2127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="TermsandConditions()[pri:24, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:31 IST" name="TermsandConditions" finished-at="2024-09-23T14:48:35 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TermsandConditions -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:35 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:36 IST" duration-ms="179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TermsandConditions status=SUCCESS method=Reporttesting.TermsandConditions()[pri:24, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:36 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:38 IST" duration-ms="2154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="StudentSupport()[pri:25, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:38 IST" name="StudentSupport" finished-at="2024-09-23T14:48:44 IST" duration-ms="6076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StudentSupport -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:44 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:44 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=StudentSupport status=SUCCESS method=Reporttesting.StudentSupport()[pri:25, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:44 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:46 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="IntellectualProperty()[pri:26, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:46 IST" name="IntellectualProperty" finished-at="2024-09-23T14:48:55 IST" duration-ms="9034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntellectualProperty -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:55 IST" name="CloseBrowser" finished-at="2024-09-23T14:48:56 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IntellectualProperty status=SUCCESS method=Reporttesting.IntellectualProperty()[pri:26, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:56 IST" name="LaunchBrowser" finished-at="2024-09-23T14:48:58 IST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="UGCApprovals()[pri:27, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:48:58 IST" name="UGCApprovals" finished-at="2024-09-23T14:49:03 IST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UGCApprovals -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:03 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:03 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UGCApprovals status=SUCCESS method=Reporttesting.UGCApprovals()[pri:27, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:03 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:05 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Resource()[pri:28, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:05 IST" name="Resource" finished-at="2024-09-23T14:49:11 IST" duration-ms="6406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resource -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:11 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:12 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Resource status=SUCCESS method=Reporttesting.Resource()[pri:28, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:12 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:14 IST" duration-ms="2086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Blog()[pri:29, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:14 IST" name="Blog" finished-at="2024-09-23T14:49:18 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blog -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:18 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:19 IST" duration-ms="189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Blog status=SUCCESS method=Reporttesting.Blog()[pri:29, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:19 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:21 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="Media()[pri:30, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:21 IST" name="Media" finished-at="2024-09-23T14:49:27 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Media -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:27 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:27 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Media status=SUCCESS method=Reporttesting.Media()[pri:30, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:27 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:30 IST" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofComputerApplications()[pri:31, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:30 IST" name="BachelorofComputerApplications" finished-at="2024-09-23T14:49:34 IST" duration-ms="3906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofComputerApplications -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:34 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:34 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofComputerApplications status=SUCCESS method=Reporttesting.BachelorofComputerApplications()[pri:31, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:34 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:36 IST" duration-ms="2214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BCAwithspecializationinCloudandSecurity()[pri:32, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:36 IST" name="BCAwithspecializationinCloudandSecurity" finished-at="2024-09-23T14:49:40 IST" duration-ms="3792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCAwithspecializationinCloudandSecurity -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:40 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:40 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BCAwithspecializationinCloudandSecurity status=SUCCESS method=Reporttesting.BCAwithspecializationinCloudandSecurity()[pri:32, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:40 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:42 IST" duration-ms="2287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BCAwithspecializationinDataAnalytics()[pri:33, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:42 IST" name="BCAwithspecializationinDataAnalytics" finished-at="2024-09-23T14:49:46 IST" duration-ms="3955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCAwithspecializationinDataAnalytics -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:46 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:46 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BCAwithspecializationinDataAnalytics status=SUCCESS method=Reporttesting.BCAwithspecializationinDataAnalytics()[pri:33, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:46 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:49 IST" duration-ms="2261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofBusinessAdministration()[pri:34, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:49 IST" name="BachelorofBusinessAdministration" finished-at="2024-09-23T14:49:52 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofBusinessAdministration -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:52 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:52 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofBusinessAdministration status=SUCCESS method=Reporttesting.BachelorofBusinessAdministration()[pri:34, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:52 IST" name="LaunchBrowser" finished-at="2024-09-23T14:49:55 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtsJournalismandMasscommunication()[pri:35, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:55 IST" name="BachelorofArtsJournalismandMasscommunication" finished-at="2024-09-23T14:49:59 IST" duration-ms="3755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtsJournalismandMasscommunication -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:59 IST" name="CloseBrowser" finished-at="2024-09-23T14:49:59 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtsJournalismandMasscommunication status=SUCCESS method=Reporttesting.BachelorofArtsJournalismandMasscommunication()[pri:35, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:49:59 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:01 IST" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofCommerce()[pri:36, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:01 IST" name="BachelorofCommerce" finished-at="2024-09-23T14:50:06 IST" duration-ms="4647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofCommerce -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:06 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:06 IST" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofCommerce status=SUCCESS method=Reporttesting.BachelorofCommerce()[pri:36, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:06 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:08 IST" duration-ms="2133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArts()[pri:37, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:08 IST" name="BachelorofArts" finished-at="2024-09-23T14:50:13 IST" duration-ms="4572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArts -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:13 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:13 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArts status=SUCCESS method=Reporttesting.BachelorofArts()[pri:37, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:13 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:15 IST" duration-ms="2143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtKannadaMedium()[pri:38, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:15 IST" name="BachelorofArtKannadaMedium" finished-at="2024-09-23T14:50:19 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtKannadaMedium -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:19 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:20 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtKannadaMedium status=SUCCESS method=Reporttesting.BachelorofArtKannadaMedium()[pri:38, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:20 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:22 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtsMalayalamMedium()[pri:39, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:22 IST" name="BachelorofArtsMalayalamMedium" finished-at="2024-09-23T14:50:26 IST" duration-ms="4553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtsMalayalamMedium -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:26 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:27 IST" duration-ms="1143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtsMalayalamMedium status=SUCCESS method=Reporttesting.BachelorofArtsMalayalamMedium()[pri:39, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:27 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:30 IST" duration-ms="2183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtsTamilMedium()[pri:40, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:30 IST" name="BachelorofArtsTamilMedium" finished-at="2024-09-23T14:50:33 IST" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtsTamilMedium -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:33 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:34 IST" duration-ms="175" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtsTamilMedium status=SUCCESS method=Reporttesting.BachelorofArtsTamilMedium()[pri:40, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:34 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:36 IST" duration-ms="2698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtsTeluguMedium()[pri:41, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:36 IST" name="BachelorofArtsTeluguMedium" finished-at="2024-09-23T14:50:41 IST" duration-ms="4495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtsTeluguMedium -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:41 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:41 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtsTeluguMedium status=SUCCESS method=Reporttesting.BachelorofArtsTeluguMedium()[pri:41, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:41 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:43 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorofArtsHindiMedium()[pri:42, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:43 IST" name="BachelorofArtsHindiMedium" finished-at="2024-09-23T14:50:47 IST" duration-ms="3912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorofArtsHindiMedium -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:47 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:47 IST" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorofArtsHindiMedium status=SUCCESS method=Reporttesting.BachelorofArtsHindiMedium()[pri:42, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:47 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:49 IST" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BComwithSpecializationinInternationalFinanceandAccounting()[pri:43, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:49 IST" name="BComwithSpecializationinInternationalFinanceandAccounting" finished-at="2024-09-23T14:50:53 IST" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BComwithSpecializationinInternationalFinanceandAccounting -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:53 IST" name="CloseBrowser" finished-at="2024-09-23T14:50:54 IST" duration-ms="227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BComwithSpecializationinInternationalFinanceandAccounting status=SUCCESS method=Reporttesting.BComwithSpecializationinInternationalFinanceandAccounting()[pri:43, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:54 IST" name="LaunchBrowser" finished-at="2024-09-23T14:50:56 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="BachelorOfCommerceHonours()[pri:44, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:56 IST" name="BachelorOfCommerceHonours" finished-at="2024-09-23T14:50:59 IST" duration-ms="3574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BachelorOfCommerceHonours -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:50:59 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:00 IST" duration-ms="1128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BachelorOfCommerceHonours status=SUCCESS method=Reporttesting.BachelorOfCommerceHonours()[pri:44, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:00 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:03 IST" duration-ms="2208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofComputerApplications()[pri:45, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:03 IST" name="MasterofComputerApplications" finished-at="2024-09-23T14:51:07 IST" duration-ms="4555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofComputerApplications -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:07 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:07 IST" duration-ms="248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofComputerApplications status=SUCCESS method=Reporttesting.MasterofComputerApplications()[pri:45, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:07 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:10 IST" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MCAwithspecializationinBlockchain()[pri:46, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:10 IST" name="MCAwithspecializationinBlockchain" finished-at="2024-09-23T14:51:13 IST" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MCAwithspecializationinBlockchain -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:13 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:14 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MCAwithspecializationinBlockchain status=SUCCESS method=Reporttesting.MCAwithspecializationinBlockchain()[pri:46, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:14 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:16 IST" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MCAwithspecializationinMLandAl()[pri:47, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:16 IST" name="MCAwithspecializationinMLandAl" finished-at="2024-09-23T14:51:20 IST" duration-ms="3775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MCAwithspecializationinMLandAl -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:20 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:20 IST" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MCAwithspecializationinMLandAl status=SUCCESS method=Reporttesting.MCAwithspecializationinMLandAl()[pri:47, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:20 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:22 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MCAwithspecializationinMachineLearning()[pri:48, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:22 IST" name="MCAwithspecializationinMachineLearning" finished-at="2024-09-23T14:51:26 IST" duration-ms="3604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MCAwithspecializationinMachineLearning -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:26 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:26 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MCAwithspecializationinMachineLearning status=SUCCESS method=Reporttesting.MCAwithspecializationinMachineLearning()[pri:48, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:26 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:28 IST" duration-ms="2180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MCAwithspecializationinARandVR()[pri:49, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:28 IST" name="MCAwithspecializationinARandVR" finished-at="2024-09-23T14:51:32 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MCAwithspecializationinARandVR -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:32 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:32 IST" duration-ms="178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MCAwithspecializationinARandVR status=SUCCESS method=Reporttesting.MCAwithspecializationinARandVR()[pri:49, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:32 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:34 IST" duration-ms="2000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofBusinessAdministration()[pri:50, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:34 IST" name="MasterofBusinessAdministration" finished-at="2024-09-23T14:51:38 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofBusinessAdministration -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:38 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:38 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofBusinessAdministration status=SUCCESS method=Reporttesting.MasterofBusinessAdministration()[pri:50, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:38 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:41 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MBAwithspecializationinDigitalMarketingManagement()[pri:51, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:41 IST" name="MBAwithspecializationinDigitalMarketingManagement" finished-at="2024-09-23T14:51:44 IST" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBAwithspecializationinDigitalMarketingManagement -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:44 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:45 IST" duration-ms="198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MBAwithspecializationinDigitalMarketingManagement status=SUCCESS method=Reporttesting.MBAwithspecializationinDigitalMarketingManagement()[pri:51, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:45 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:47 IST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MBAwithspecializationinHRAnalytics()[pri:52, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:47 IST" name="MBAwithspecializationinHRAnalytics" finished-at="2024-09-23T14:51:51 IST" duration-ms="3842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBAwithspecializationinHRAnalytics -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:51 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:51 IST" duration-ms="184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MBAwithspecializationinHRAnalytics status=SUCCESS method=Reporttesting.MBAwithspecializationinHRAnalytics()[pri:52, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:51 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:53 IST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MBAwithspecializationinDataScience()[pri:53, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:53 IST" name="MBAwithspecializationinDataScience" finished-at="2024-09-23T14:51:57 IST" duration-ms="3938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBAwithspecializationinDataScience -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:57 IST" name="CloseBrowser" finished-at="2024-09-23T14:51:57 IST" duration-ms="226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MBAwithspecializationinDataScience status=SUCCESS method=Reporttesting.MBAwithspecializationinDataScience()[pri:53, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:57 IST" name="LaunchBrowser" finished-at="2024-09-23T14:51:59 IST" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MBAwithspecializationinBusinessAnalytics()[pri:54, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:51:59 IST" name="MBAwithspecializationinBusinessAnalytics" finished-at="2024-09-23T14:52:03 IST" duration-ms="3827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBAwithspecializationinBusinessAnalytics -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:03 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:03 IST" duration-ms="191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MBAwithspecializationinBusinessAnalytics status=SUCCESS method=Reporttesting.MBAwithspecializationinBusinessAnalytics()[pri:54, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:03 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:06 IST" duration-ms="2162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MBAwithspecializationinDigitalEntrepreneurship()[pri:55, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:06 IST" name="MBAwithspecializationinDigitalEntrepreneurship" finished-at="2024-09-23T14:52:10 IST" duration-ms="4029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MBAwithspecializationinDigitalEntrepreneurship -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:10 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:10 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MBAwithspecializationinDigitalEntrepreneurship status=SUCCESS method=Reporttesting.MBAwithspecializationinDigitalEntrepreneurship()[pri:55, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:10 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:12 IST" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofArtsJournalismandMasscommunication()[pri:56, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:12 IST" name="MasterofArtsJournalismandMasscommunication" finished-at="2024-09-23T14:52:16 IST" duration-ms="4021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofArtsJournalismandMasscommunication -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:16 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:16 IST" duration-ms="239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofArtsJournalismandMasscommunication status=SUCCESS method=Reporttesting.MasterofArtsJournalismandMasscommunication()[pri:56, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:16 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:18 IST" duration-ms="2306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MComwithspecializationinFintech()[pri:57, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:18 IST" name="MComwithspecializationinFintech" finished-at="2024-09-23T14:52:22 IST" duration-ms="4002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MComwithspecializationinFintech -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:22 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:23 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MComwithspecializationinFintech status=SUCCESS method=Reporttesting.MComwithspecializationinFintech()[pri:57, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:23 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:25 IST" duration-ms="2079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MComwithspecializationinFinancialManagement()[pri:58, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:25 IST" name="MComwithspecializationinFinancialManagement" finished-at="2024-09-23T14:52:28 IST" duration-ms="3656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MComwithspecializationinFinancialManagement -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:28 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:29 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MComwithspecializationinFinancialManagement status=SUCCESS method=Reporttesting.MComwithspecializationinFinancialManagement()[pri:58, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:29 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:31 IST" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofArtsinPublicPolicyandGovernance()[pri:59, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:31 IST" name="MasterofArtsinPublicPolicyandGovernance" finished-at="2024-09-23T14:52:34 IST" duration-ms="3768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofArtsinPublicPolicyandGovernance -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:34 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:35 IST" duration-ms="169" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofArtsinPublicPolicyandGovernance status=SUCCESS method=Reporttesting.MasterofArtsinPublicPolicyandGovernance()[pri:59, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:35 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:37 IST" duration-ms="2043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofArtsinPsychology()[pri:60, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:37 IST" name="MasterofArtsinPsychology" finished-at="2024-09-23T14:52:41 IST" duration-ms="4143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofArtsinPsychology -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:41 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:41 IST" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofArtsinPsychology status=SUCCESS method=Reporttesting.MasterofArtsinPsychology()[pri:60, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:41 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:43 IST" duration-ms="2158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="MasterofScienceinDataScience()[pri:61, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:43 IST" name="MasterofScienceinDataScience" finished-at="2024-09-23T14:52:47 IST" duration-ms="3712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MasterofScienceinDataScience -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:47 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:47 IST" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MasterofScienceinDataScience status=SUCCESS method=Reporttesting.MasterofScienceinDataScience()[pri:61, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:47 IST" name="LaunchBrowser" finished-at="2024-09-23T14:52:49 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="PrintprogramsList()[pri:62, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:49 IST" name="PrintprogramsList" finished-at="2024-09-23T14:52:56 IST" duration-ms="6560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PrintprogramsList -->
+        <test-method is-config="true" signature="CloseBrowser(org.testng.ITestResult)[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:56 IST" name="CloseBrowser" finished-at="2024-09-23T14:52:56 IST" duration-ms="203" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PrintprogramsList status=SUCCESS method=Reporttesting.PrintprogramsList()[pri:62, instance:FunctionalTest.Report.Reporttesting@7d3e8655] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="CloseReport()[pri:0, instance:FunctionalTest.Report.Reporttesting@7d3e8655]" started-at="2024-09-23T14:52:56 IST" name="CloseReport" finished-at="2024-09-23T14:52:56 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseReport -->
