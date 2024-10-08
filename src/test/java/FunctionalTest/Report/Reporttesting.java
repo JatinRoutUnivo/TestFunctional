@@ -2733,7 +2733,7 @@ public class Reporttesting {
 			JavascriptExecutor js=((JavascriptExecutor)driver);
 			js.executeScript("arguments[0].click();", MasterofScienceinDataScience);
 			Thread.sleep(3000);
-			String ExpMasterofScienceinDataScience = "https://amityonline.com/msc-in-data-science";
+			String ExpMasterofScienceinDataScience = "https://amityonline.com/msc-in-data-scienc";
 			if(driver.getCurrentUrl().equals(ExpMasterofScienceinDataScience)) {
 				test.log(Status.PASS, "MasterofScienceinDataScience_Program url is verified");
 				System.out.println("MasterofScienceinDataScience_Program url is verified");
@@ -2774,6 +2774,7 @@ public class Reporttesting {
 		Thread.sleep(2000);
 		Actions act7=new Actions(driver);
 		act7.moveToElement(Showmorebutton).click().perform();
+		test=reports.createTest("Program List on HomePage");
 		Thread.sleep(2000);
 		List<WebElement> elements = driver.findElements(By.xpath("//li[@class='styles_subMenuItem__GXmwt w-fit']"));
 		int countofelements = elements.size();
