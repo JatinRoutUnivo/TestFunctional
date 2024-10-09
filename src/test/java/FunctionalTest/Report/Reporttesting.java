@@ -339,7 +339,7 @@ public class Reporttesting {
 		handle6.addAll(windowhandle1);
 		Thread.sleep(2000);
 		driver.switchTo().window(handle6.get(1));
-		String CareerServicesURL = "https://amityonline.com/career-service";
+		String CareerServicesURL = "https://amityonline.com/career-services";
 		String ActualURL = driver.getCurrentUrl();
 		if(ActualURL.equals(CareerServicesURL)) {
 			test.log(Status.PASS, "Career Service Button is working");
