@@ -274,7 +274,7 @@ public class Reporttesting {
 		PageFactory.initElements(driver, this);
 
 	}
-/*
+
 	@Test (priority = 1)
 	public void AmityLogo() {
 		test=reports.createTest("Amity_Logo");
@@ -1514,7 +1514,7 @@ public class Reporttesting {
 		}
 	}
 
-	*/
+	
 
 	@Test(priority = 32)
 	//BCA with specialization in Cloud & Security
