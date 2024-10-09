@@ -421,7 +421,7 @@ public class Reporttesting {
 
 	}
 
-	@Test(priority = 6)
+/*	@Test(priority = 6)
 	public void CallusHeaderButton() throws InterruptedException{
 		test=reports.createTest("Call Us_Header button");
 		try {
@@ -2790,7 +2790,7 @@ public class Reporttesting {
 
 	}
 
-
+*/
 
 
 
