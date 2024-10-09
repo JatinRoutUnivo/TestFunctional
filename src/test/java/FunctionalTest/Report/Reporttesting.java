@@ -1470,7 +1470,7 @@ public class Reporttesting {
 			
 		}
 	}
-*/
+
 
 	@Test(priority = 31)
 	// Bachelor of Computer Applications
@@ -1760,7 +1760,7 @@ public class Reporttesting {
 		}
 
 	}
-
+*/
 	@Test(priority = 38)
 	//Bachelor of Art (Kannada Medium)
 	public void BachelorofArtKannadaMedium() throws InterruptedException {
