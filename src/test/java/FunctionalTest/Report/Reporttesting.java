@@ -274,7 +274,7 @@ public class Reporttesting {
 		PageFactory.initElements(driver, this);
 
 	}
-
+/*
 	@Test (priority = 1)
 	public void AmityLogo() {
 		test=reports.createTest("Amity_Logo");
@@ -1470,9 +1470,9 @@ public class Reporttesting {
 			
 		}
 	}
+*/
 
-
-/*	@Test(priority = 31)
+	@Test(priority = 31)
 	// Bachelor of Computer Applications
 	public void BachelorofComputerApplications() throws InterruptedException {
 
@@ -2791,7 +2791,7 @@ public class Reporttesting {
 
 
 	}
-*/
+
 
 
 
