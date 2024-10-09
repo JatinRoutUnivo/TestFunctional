@@ -2222,7 +2222,7 @@ public class Reporttesting {
 		}
 
 	}
-
+*/
 
 	@Test(priority = 49)
 	//MCA with specialization in AR & VR
@@ -2724,7 +2724,7 @@ public class Reporttesting {
 			
 		}
 	}
-*/
+
 
 	@Test(priority = 61)
 	//Master of Science in Data Science
@@ -2736,7 +2736,7 @@ public class Reporttesting {
 			JavascriptExecutor js=((JavascriptExecutor)driver);
 			js.executeScript("arguments[0].click();", MasterofScienceinDataScience);
 			Thread.sleep(3000);
-			String ExpMasterofScienceinDataScience = "https://amityonline.com/msc-in-data-scienc";
+			String ExpMasterofScienceinDataScience = "https://amityonline.com/msc-in-data-science";
 			if(driver.getCurrentUrl().equals(ExpMasterofScienceinDataScience)) {
 				test.log(Status.PASS, "MasterofScienceinDataScience_Program url is verified");
 				System.out.println("MasterofScienceinDataScience_Program url is verified");
