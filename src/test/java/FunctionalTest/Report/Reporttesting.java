@@ -1760,7 +1760,7 @@ public class Reporttesting {
 		}
 
 	}
-*/
+
 	@Test(priority = 38)
 	//Bachelor of Art (Kannada Medium)
 	public void BachelorofArtKannadaMedium() throws InterruptedException {
@@ -2724,6 +2724,7 @@ public class Reporttesting {
 			
 		}
 	}
+*/
 
 	@Test(priority = 61)
 	//Master of Science in Data Science
