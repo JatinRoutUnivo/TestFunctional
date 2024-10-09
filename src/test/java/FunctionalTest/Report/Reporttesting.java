@@ -1514,6 +1514,8 @@ public class Reporttesting {
 		}
 	}
 
+	*/
+
 	@Test(priority = 32)
 	//BCA with specialization in Cloud & Security
 	public void BCAwithspecializationinCloudandSecurity() throws InterruptedException {
@@ -2222,7 +2224,7 @@ public class Reporttesting {
 		}
 
 	}
-*/
+
 
 	@Test(priority = 49)
 	//MCA with specialization in AR & VR
