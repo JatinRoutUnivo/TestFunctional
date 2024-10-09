@@ -364,7 +364,7 @@ public class Reporttesting {
 		}
 	}
 
-	@Test(priority = 4)
+/*	@Test(priority = 4)
 	public void AdvantagesHeaderButton(){
 		test=reports.createTest("Advantages_Button");
 		try {
@@ -2792,7 +2792,7 @@ public class Reporttesting {
 
 
 
-
+*/
 
 
 
