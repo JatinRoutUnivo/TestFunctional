@@ -328,7 +328,7 @@ public class Reporttesting {
 	}
 
 
-/*	@Test(priority = 3)
+	@Test(priority = 3)
 	public void CareerServicesHeaderButton() throws InterruptedException{
 		test=reports.createTest("Career_Services");
 		try {
@@ -1472,7 +1472,7 @@ public class Reporttesting {
 	}
 
 
-	@Test(priority = 31)
+/*	@Test(priority = 31)
 	// Bachelor of Computer Applications
 	public void BachelorofComputerApplications() throws InterruptedException {
 
@@ -2768,7 +2768,7 @@ public class Reporttesting {
 		}
 
 	}
-*/
+
 	@Test(priority = 62)
 	public void PrintprogramsList() throws InterruptedException {
 
@@ -2791,7 +2791,7 @@ public class Reporttesting {
 
 
 	}
-
+*/
 
 
 
