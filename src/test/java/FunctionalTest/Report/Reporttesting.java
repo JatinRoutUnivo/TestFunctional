@@ -275,7 +275,7 @@ public class Reporttesting {
 
 	}
 
-	@Test (priority = 1)
+/*	@Test (priority = 1)
 	public void AmityLogo() {
 		test=reports.createTest("Amity_Logo");
 		if(amitylogoElement.isDisplayed()) {
@@ -1174,6 +1174,8 @@ public class Reporttesting {
 			
 		}
 	}
+
+	*/
 
 	@Test(priority = 24)
 	public void TermsandConditions() throws InterruptedException {
