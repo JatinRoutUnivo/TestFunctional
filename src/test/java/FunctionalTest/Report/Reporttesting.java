@@ -393,7 +393,7 @@ public class Reporttesting {
 		}
 	} 
 
-/*	@Test(priority = 5)
+	@Test(priority = 5)
 	public void SearchHeaderButton(){
 		test=reports.createTest("Search_Button");
 		try {
@@ -1472,7 +1472,7 @@ public class Reporttesting {
 	}
 
 
-	@Test(priority = 31)
+/*	@Test(priority = 31)
 	// Bachelor of Computer Applications
 	public void BachelorofComputerApplications() throws InterruptedException {
 
