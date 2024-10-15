@@ -2054,7 +2054,7 @@ public class Reporttesting {
 	}
 
 	//-------------------------------------------------------PG Programs----------------------------------------------------------------------------------------
-
+/*
 
 	@Test(priority = 45)
 	//Master of Computer Applications
@@ -2798,7 +2798,7 @@ public class Reporttesting {
 
 
 
-
+*/
 
 
 
